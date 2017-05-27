@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844380FE1ED8B76700A8A20B /* UIMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844380FD1ED8B76700A8A20B /* UIMainTableViewController.m */; };
 		847368EB1ED1F8AF0077FD69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847368EA1ED1F8AF0077FD69 /* main.m */; };
 		847368EE1ED1F8AF0077FD69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847368ED1ED1F8AF0077FD69 /* AppDelegate.m */; };
-		847368F11ED1F8AF0077FD69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847368F01ED1F8AF0077FD69 /* ViewController.m */; };
 		847368F41ED1F8AF0077FD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847368F21ED1F8AF0077FD69 /* Main.storyboard */; };
 		847368F61ED1F8AF0077FD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847368F51ED1F8AF0077FD69 /* Assets.xcassets */; };
 		847368F91ED1F8AF0077FD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847368F71ED1F8AF0077FD69 /* LaunchScreen.storyboard */; };
@@ -35,12 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		844380FC1ED8B76700A8A20B /* UIMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMainTableViewController.h; sourceTree = "<group>"; };
+		844380FD1ED8B76700A8A20B /* UIMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMainTableViewController.m; sourceTree = "<group>"; };
 		847368E61ED1F8AF0077FD69 /* Test_Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_Quest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847368EA1ED1F8AF0077FD69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		847368EC1ED1F8AF0077FD69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		847368ED1ED1F8AF0077FD69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		847368EF1ED1F8AF0077FD69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		847368F01ED1F8AF0077FD69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		847368F31ED1F8AF0077FD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847368F51ED1F8AF0077FD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847368F81ED1F8AF0077FD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				847368EC1ED1F8AF0077FD69 /* AppDelegate.h */,
 				847368ED1ED1F8AF0077FD69 /* AppDelegate.m */,
-				847368EF1ED1F8AF0077FD69 /* ViewController.h */,
-				847368F01ED1F8AF0077FD69 /* ViewController.m */,
+				844380FC1ED8B76700A8A20B /* UIMainTableViewController.h */,
+				844380FD1ED8B76700A8A20B /* UIMainTableViewController.m */,
 				847368F21ED1F8AF0077FD69 /* Main.storyboard */,
 				847368F51ED1F8AF0077FD69 /* Assets.xcassets */,
 				847368F71ED1F8AF0077FD69 /* LaunchScreen.storyboard */,
@@ -273,9 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847368F11ED1F8AF0077FD69 /* ViewController.m in Sources */,
 				847368EE1ED1F8AF0077FD69 /* AppDelegate.m in Sources */,
 				847368EB1ED1F8AF0077FD69 /* main.m in Sources */,
+				844380FE1ED8B76700A8A20B /* UIMainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +507,7 @@
 				847369151ED1F8AF0077FD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847369161ED1F8AF0077FD69 /* Build configuration list for PBXNativeTarget "Test_QuestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				847369181ED1F8AF0077FD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847369191ED1F8AF0077FD69 /* Build configuration list for PBXNativeTarget "Test_QuestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				8473691B1ED1F8AF0077FD69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
