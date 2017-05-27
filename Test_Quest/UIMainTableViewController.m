@@ -91,12 +91,12 @@
     
 }*/
 
-- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+/*- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
   NSIndexPath *path = [self.tableView indexPathForSelectedRow];
    AboutViewController *aboutQuest;
     aboutQuest = [segue destinationViewController];
     aboutQuest.intLabel = path.row;
-}
+}*/
 
 
 
