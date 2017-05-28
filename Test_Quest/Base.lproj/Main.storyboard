@@ -34,9 +34,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="wD9-R0-hdu" kind="push" id="nzf-Xh-weg"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -45,15 +42,18 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Journal" id="Tcb-CK-LcA"/>
+                    <connections>
+                        <segue destination="wD9-R0-hdu" kind="show" identifier="linkTableView" id="Myy-VB-ruc"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddg-dY-ZBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-230" y="29"/>
         </scene>
-        <!--View Controller-->
+        <!--About View Controller-->
         <scene sceneID="2yP-h6-hyq">
             <objects>
-                <viewController id="wD9-R0-hdu" sceneMemberID="viewController">
+                <viewController id="wD9-R0-hdu" customClass="AboutViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x1u-xQ-eX1"/>
                         <viewControllerLayoutGuide type="bottom" id="hEk-Iu-pSX"/>
@@ -73,6 +73,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="hAs-nG-rZb"/>
+                    <connections>
+                        <outlet property="label" destination="bYi-b0-piH" id="vFU-jL-EzA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GEi-m6-My1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

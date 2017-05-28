@@ -14,4 +14,5 @@
     NSArray* journal;
 }
 
+
 @end

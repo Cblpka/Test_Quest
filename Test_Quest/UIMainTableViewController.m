@@ -7,7 +7,7 @@
 //
 
 #import "UIMainTableViewController.h"
-
+#import "AboutViewController.h"
 
 
 @interface UIMainTableViewController ()
@@ -19,27 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-   /*  if (intLabel == 0) {
-        label.text = @"Убей 10 кабанов во славу орды!";
-    }
-    else if (intLabel == 1) {
-        label.text = @"Найди пропавшего таурена";
-    }
-    else if (intLabel == 2) {
-        label.text = @"Мои овцы пропали, найди их. Молю!";
-    }
-    else if (intLabel == 3) {
-        label.text = @"Сопроводи нашего вождя";
-    }
-    else if (intLabel == 4) {
-        label.text = @"Моя жена пропала. Найди ее!";
-    }
-    else if (intLabel == 5) {
-        label.text = @"Убей 7 ящеров, они убивают моих газелей";
-    }
-    else if (intLabel == 6) {
-        label.text = @"Убей собак вокруг и принеси мне их кожу";
-    }*/
+ 
     
     journal = [NSArray arrayWithObjects:@"Quest #1", @"Quest #2", @"Quest #3", @"Quest #4", @"Quest #5", @"Quest #6", @"Quest #7", nil];
 }
@@ -84,12 +64,14 @@
    // return nil;
 //}
 
-/*- (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
+- (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
     AboutViewController *aboutQuest = [[AboutViewController alloc] init];
     [self.navigationController pushViewController:aboutQuest animated:YES];
- 
-    
-}*/
+    [self performSegueWithIdentifier:@"linkTableView" sender:indexPath];
+}
+
+	
+
 
 /*- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
   NSIndexPath *path = [self.tableView indexPathForSelectedRow];

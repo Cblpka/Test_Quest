@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84375A691EDA12E3004135C1 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84375A681EDA12E3004135C1 /* AboutViewController.m */; };
 		844380FE1ED8B76700A8A20B /* UIMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844380FD1ED8B76700A8A20B /* UIMainTableViewController.m */; };
 		847368EB1ED1F8AF0077FD69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847368EA1ED1F8AF0077FD69 /* main.m */; };
 		847368EE1ED1F8AF0077FD69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847368ED1ED1F8AF0077FD69 /* AppDelegate.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84375A671EDA12E3004135C1 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		84375A681EDA12E3004135C1 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		844380FC1ED8B76700A8A20B /* UIMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMainTableViewController.h; sourceTree = "<group>"; };
 		844380FD1ED8B76700A8A20B /* UIMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMainTableViewController.m; sourceTree = "<group>"; };
 		847368E61ED1F8AF0077FD69 /* Test_Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_Quest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +104,8 @@
 		847368E81ED1F8AF0077FD69 /* Test_Quest */ = {
 			isa = PBXGroup;
 			children = (
+				84375A671EDA12E3004135C1 /* AboutViewController.h */,
+				84375A681EDA12E3004135C1 /* AboutViewController.m */,
 				847368EC1ED1F8AF0077FD69 /* AppDelegate.h */,
 				847368ED1ED1F8AF0077FD69 /* AppDelegate.m */,
 				844380FC1ED8B76700A8A20B /* UIMainTableViewController.h */,
@@ -275,6 +280,7 @@
 			files = (
 				847368EE1ED1F8AF0077FD69 /* AppDelegate.m in Sources */,
 				847368EB1ED1F8AF0077FD69 /* main.m in Sources */,
+				84375A691EDA12E3004135C1 /* AboutViewController.m in Sources */,
 				844380FE1ED8B76700A8A20B /* UIMainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

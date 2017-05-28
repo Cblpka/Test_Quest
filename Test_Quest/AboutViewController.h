@@ -8,9 +8,11 @@
 
 #import "UIMainTableViewController.h"
 
-@interface AboutViewController : UIMainTableViewController
+@interface AboutViewController : UIViewController
 
+@property NSInteger intLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 
 @end
